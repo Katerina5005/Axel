@@ -72,7 +72,7 @@ h1 span {
     padding: 0 10px;
     line-height: 80px;
 }
-.main_container p {
+.main_container .main-text {
     position: absolute;
     top: 480px;
     left: 250px;
@@ -81,7 +81,7 @@ h1 span {
 
 .blue-button {
     position: absolute;
-    width: 220px;
+    padding: 30px;
     height: 80px;
     left: 250px;
     top: 600px;
@@ -156,6 +156,7 @@ h3 {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
 }
+
 .cub_number {
     font-weight: 800;
     font-size: 80px;
@@ -166,4 +167,30 @@ h3 {
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
+}
+/* block_4 */
+.startup {
+    position: absolute;
+    width: 100%;
+}
+.issue .issue-header {
+    position: absolute;
+    top: 2760px;
+    margin-left: -120px;
+    background-color:#07AF91;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 36px;
+    width: 80%;
+    text-align: center;
+}
+.issue-text {
+   position: absolute;
+   top: 2900px;
+   left: 180px;
+   font-size: 22px;
+}
+.issue .blue-button {
+    top: 3020px;
+    left: 620px;
 }
