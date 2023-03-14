@@ -2,7 +2,8 @@
 
 .main_container {
     font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
+    color: #ffffff;
+    margin-bottom: 50px;
 }
 a {
     color: #ffffff;
@@ -35,12 +36,15 @@ nav {
     padding: 40px;
 }
 
-li {
+ul {
     display: flex;
     justify-content: baseline;
-    color:aliceblue;
+    list-style-type: none; 
+}
+nav li {  
     padding: 10px;
-    margin: 10px;   
+    margin: 10px;
+    color:aliceblue;   
 }
 .green-btn {
     width: 150px;
@@ -79,7 +83,6 @@ h1 span {
 }
 
 .blue-button {
-    position: absolute;
     padding: 30px;
     height: 80px;
     left: 250px;
@@ -89,6 +92,9 @@ h1 span {
     border-radius: 10px;
     color: #FFFFFF;
     font-size: 20px;
+}
+.main_container .blue-button {
+    position: absolute;
 }
 
 .blue-button:hover {
@@ -151,7 +157,7 @@ h3 {
     width: 380px;
     text-align: center;
     padding: 0 10px 20px;
-    margin: 0 14px;
+    margin: 0 12px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
 }
@@ -169,7 +175,6 @@ h3 {
 }
 /* block_4 */
 .startup {
-    position: absolute;
     width: 100%;
     height: 500px;
 }
@@ -193,4 +198,67 @@ h3 {
 .issue .blue-button {
     top: 3020px;
     left: 620px;
+}
+
+/* block_5 */
+.market {
+    margin-bottom: 30px;
+    margin-left: -40px;
+}
+.market li {
+    font-size: 20px;
+    width: 220px;
+    text-align: center;
+    padding: 20px 15px;
+    background: #EEF1F4;
+    border-right: 1px solid #CFDDEB;;
+}
+.market .market-east{
+    background: #88BBD8;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.market_mena {
+    width: 60%;
+    margin-right: 20px;
+}
+.market_mena span {
+
+}
+.market-text {
+}
+.blue-button {
+}
+.manager {
+}
+.fatima-img {
+}
+.fatima-name {
+}
+.quater {
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.quater .cub {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.cub .small_cub {
+    font-size: 44px;
+    line-height: 20px;
+    font-weight: 800;   
+}
+small {
+    font-size: 20px;
+}
+.cub .cub_text {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(16, 16, 16, 0.5);
+}
+.blue-cub {
 }
