@@ -38,7 +38,6 @@ nav {
 
 ul {
     display: flex;
-    justify-content: baseline;
     list-style-type: none; 
 }
 nav li {  
@@ -51,11 +50,11 @@ nav li {
     height: 55px;
     background: #07AF91;
     border-radius: 10px;
-    border-color: #07AF91;
     margin-top: 20px;
     margin-left: 130px;
     color: #FFFFFF;
     font-size: 18px;
+    border-style: none;
 
 }
 .main-container {
