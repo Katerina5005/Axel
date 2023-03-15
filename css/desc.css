@@ -202,7 +202,7 @@ h3 {
 
 /* block_5 */
 .market {
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     margin-left: -40px;   
 }
 .market_img {
@@ -227,18 +227,32 @@ h3 {
     width: 60%;
     margin-right: 20px;
 }
+.market-header {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0;
+}
 .market_mena span {
-
+    color: #07AF91;
 }
 .market-text {
+    font-size: 18px;
+    line-height: 26px;
 }
 .blue-button {
+    margin: 15px 0 25px;
 }
 .manager {
+    display: flex;
 }
 .fatima-img {
+    width: 62px;
+    height: 62px;
+    margin-right: 14px;
 }
-.fatima-name {
+.manager .fatima-name {
+    font-size: 16px;
+    color: #10101080;
 }
 .quater {
     margin-left: 100px;
@@ -263,9 +277,25 @@ small {
 .cub .cub_text {
     font-size: 16px;
     line-height: 20px;
-    color: rgba(16, 16, 16, 0.5);
+    color: #10101080;
 }
-.blue-cub {
+.quater .blue-cub {
+    background-color: #1178B2;
+   
+}
+.quater .blue-cub .cub_text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.blue-cub-img {
+    margin-top: 25px;
+}
+
+.blue-cub:hover {
+    background: #07AF91;
+    cursor: pointer;
 }
 
 /* block_6*/
