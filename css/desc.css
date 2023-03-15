@@ -267,3 +267,39 @@ small {
 }
 .blue-cub {
 }
+
+/* block_6*/
+.axel {
+    width: 392px;
+    height: 284px;
+}
+.axel-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 14px;
+}
+.axel_img {
+    margin-top: 80px;
+}
+
+.black_bg {
+    position: relative;
+    height: 645px;
+    width: 1000px;
+    margin-left: 12px;
+}
+.video-text {
+    position: absolute;
+    top: 4735px;
+    left: 600px;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+
+}
+.play_btn {
+    position: absolute;
+    left: 710px;
+    top: 4850px;
+}
